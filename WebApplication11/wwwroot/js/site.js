@@ -99,9 +99,8 @@ function _displayItems2(data) {
 function _displayProfile(data) {
 
     document.getElementById('Firstname').value = data.firstName;
-    document.getElementById('MiddleName').value = data.middleName;
     document.getElementById('LastName').value = data.lastName;
-    document.getElementById('Email').value = data.email;
+   
 
 }
 
