@@ -98,10 +98,10 @@ function _displayItems2(data) {
 
 function _displayProfile(data) {
 
-    document.getElementById('Firstname').value = JSON.stringify(data.firstName);
-    document.getElementById('MiddleName').value = JSON.stringify(data.middleName);
-    document.getElementById('LastName').value = JSON.stringify(data.lastName);
-    document.getElementById('Email').value = JSON.stringify(data.email);
+    document.getElementById('Firstname').value = data.firstName;
+    document.getElementById('MiddleName').value = data.middleName;
+    document.getElementById('LastName').value = data.lastName;
+    document.getElementById('Email').value = data.email;
 
 }
 
